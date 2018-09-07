@@ -1,6 +1,6 @@
 #lang racket
 ;Tarea- version 3.1
-
+;$ (busquedaProfundidad 8 4)
 ;(define lista (list))
 (require graph math/matrix)
 
