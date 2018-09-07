@@ -1,5 +1,5 @@
 #lang racket
-;Tarea Alejandro Salas - version 3.0
+;Tarea 
 
 ;(define lista (list))
 (require graph math/matrix)
