@@ -95,7 +95,7 @@
     (buscarNodo (arista-IdNodo1 (first(filter (lambda(x) (equal? (arista-IdNodo2 x) idNodo)) arbolA)))))
 
 (define (camino id lista fin)
-  (if (equal? fin (nodo-Nombre(car(buscarNodoPadreAux id)))) (append lista (list "84"))  
+  (if (equal? fin (nodo-Nombre(car(buscarNodoPadreAux id)))) (append lista (list fin))  
       (camino (nodo-Nombre(car(buscarNodoPadreAux id))) (append lista (list(nodo-Nombre(car(buscarNodoPadreAux id)))) )fin))
 
   )
